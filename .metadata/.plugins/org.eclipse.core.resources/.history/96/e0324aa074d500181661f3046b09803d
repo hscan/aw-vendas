@@ -1,0 +1,5 @@
+package br.com.infoscan.vendas.repository;
+
+public interface Clientes {
+
+}

@@ -1,0 +1,28 @@
+package br.com.infoscan.vendas.service;
+
+import java.time.LocalDateTime;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import br.com.infoscan.vendas.model.Venda;
+import br.com.infoscan.vendas.repository.Produtos;
+import br.com.infoscan.vendas.repository.Vendas;
+
+public class VendaService {
+
+	@Autowired
+	private Vendas vendas;
+	
+	@Autowired
+	private Produtos produtos;
+	
+	public Venda adicionar(Venda venda) {
+		venda.setCadastro(LocalDateTime.now());
+		venda.getItems().forEach(i -> {
+			i.setVenda(venda);
+			i.setProduto(produto);
+		});;
+		return venda;
+	}
+	
+}

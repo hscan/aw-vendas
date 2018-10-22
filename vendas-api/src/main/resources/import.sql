@@ -1,0 +1,10 @@
+insert into cliente (id, nome) values (1, 'CLiente 1');
+insert into cliente (id, nome) values (2, 'Cliente 2');
+
+insert into produto (id, nome, valor) values (1, 'Notebook 1', 3450.0);
+insert into produto (id, nome, valor) values (2, 'Laptop 2', 2450.0);
+insert into produto (id, nome, valor) values (3, 'Ultrbook 1', 5450.0);
+
+insert into venda (id, cliente_id, frete, total, cadastro) values (1, 1, 15.0, 2965.0, sysdate());
+
+insert into item (id, venda_id, produto_id, quantidade) values (1, 1, 1, 1);

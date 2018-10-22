@@ -1,0 +1,7 @@
+package br.com.infoscan.vendas.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface Produtos extends JpaRepository<T, ID> {
+
+}

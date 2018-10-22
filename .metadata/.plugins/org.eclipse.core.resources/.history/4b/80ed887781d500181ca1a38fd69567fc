@@ -1,0 +1,11 @@
+package br.com.infoscan.vendas.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import br.com.infoscan.vendas.repository.Vendas;
+
+public class VendaService {
+
+	@Autowired
+	private Vendas vendas;
+}

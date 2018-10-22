@@ -1,0 +1,1735 @@
+!SESSION 2018-10-21 17:38:50.652 -----------------------------------------------
+eclipse.buildId=4.0.0.201809220817-RELEASE
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2018-10-21 17:39:55.450
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-10-21 17:39:55.450
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@73da303e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@24068086,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-10-21 17:40:07.372
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\hscan'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui 4 0 2018-10-21 17:45:02.145
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4595)
+	at org.eclipse.swt.SWT.error(SWT.java:4510)
+	at org.eclipse.swt.SWT.error(SWT.java:4481)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:451)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:350)
+	at org.eclipse.swt.widgets.Composite.layout(Composite.java:654)
+	at org.springframework.ide.eclipse.boot.wizard.CheckBoxesSection.applyFilter(CheckBoxesSection.java:304)
+	at org.springframework.ide.eclipse.boot.wizard.FilteredDependenciesSection.onFilter(FilteredDependenciesSection.java:104)
+	at org.springframework.ide.eclipse.boot.wizard.FilteredDependenciesSection.lambda$1(FilteredDependenciesSection.java:95)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3933)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3564)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:628)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:199)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:391)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:246)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1474)
+
+!ENTRY org.eclipse.ui 4 0 2018-10-21 17:45:02.211
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4595)
+	at org.eclipse.swt.SWT.error(SWT.java:4510)
+	at org.eclipse.swt.SWT.error(SWT.java:4481)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:451)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:350)
+	at org.eclipse.swt.widgets.Composite.layout(Composite.java:654)
+	at org.springframework.ide.eclipse.boot.wizard.CheckBoxesSection.applyFilter(CheckBoxesSection.java:304)
+	at org.springframework.ide.eclipse.boot.wizard.FilteredDependenciesSection.onFilter(FilteredDependenciesSection.java:104)
+	at org.springframework.ide.eclipse.boot.wizard.FilteredDependenciesSection.lambda$1(FilteredDependenciesSection.java:95)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3933)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3564)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:628)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:199)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:391)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:246)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1474)
+
+!ENTRY org.eclipse.ui 2 2 2018-10-21 17:46:04.846
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.ui.projectPropertyPage (bundle: org.springframework.ide.eclipse.boot.validation, propertyPage: org.springframework.ide.eclipse.boot.validation.preferences.BootValidationProjectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 17:46:42.668
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 17:46:50.360
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.KvrSBxnY
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 17:46:50.369
+!MESSAGE subscribing to classpath changes: sts4.classpath.KvrSBxnY
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 17:46:50.383
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 17:46:50.397
+!MESSAGE subsribers = [sts4.classpath.KvrSBxnY]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 17:46:50.412
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 17:46:50.446
+!MESSAGE project vendas-api ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 17:46:50.455
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 17:46:50.464
+!MESSAGE Preparing classpath changed notification vendas-api
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 17:46:50.471
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.KvrSBxnY => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 17:46:50.482
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 17:46:50.512
+!MESSAGE classpath=98 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 17:46:50.531
+!MESSAGE executing callback sts4.classpath.KvrSBxnY vendas-api false 98
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 17:46:51.652
+!MESSAGE executing callback sts4.classpath.KvrSBxnY SUCCESS [done]
+
+!ENTRY org.eclipse.lsp4e 4 0 2018-10-21 17:47:37.010
+!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+!STACK 0
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:357)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1895)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.lambda$2(LSContentAssistProcessor.java:143)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1382)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.ForEachOps$ForEachTask.compute(ForEachOps.java:291)
+	at java.util.concurrent.CountedCompleter.exec(CountedCompleter.java:731)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinTask.doInvoke(ForkJoinTask.java:401)
+	at java.util.concurrent.ForkJoinTask.invoke(ForkJoinTask.java:734)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateParallel(ForEachOps.java:160)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateParallel(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:233)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:583)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:140)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaCompletionProposalComputer.lambda$0(SpringBootJavaCompletionProposalComputer.java:51)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1582)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:215)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:99)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY org.eclipse.lsp4e 4 0 2018-10-21 17:47:55.036
+!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+!STACK 0
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:357)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1895)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.lambda$2(LSContentAssistProcessor.java:143)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1382)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.ForEachOps$ForEachTask.compute(ForEachOps.java:291)
+	at java.util.concurrent.CountedCompleter.exec(CountedCompleter.java:731)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinTask.doInvoke(ForkJoinTask.java:401)
+	at java.util.concurrent.ForkJoinTask.invoke(ForkJoinTask.java:734)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateParallel(ForEachOps.java:160)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateParallel(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:233)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:583)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:140)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaCompletionProposalComputer.lambda$0(SpringBootJavaCompletionProposalComputer.java:51)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1582)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:215)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:99)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY org.eclipse.lsp4e 4 0 2018-10-21 17:48:05.380
+!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+!STACK 0
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:357)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1895)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.lambda$2(LSContentAssistProcessor.java:143)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1382)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.ForEachOps$ForEachTask.compute(ForEachOps.java:291)
+	at java.util.concurrent.CountedCompleter.exec(CountedCompleter.java:731)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinTask.doInvoke(ForkJoinTask.java:401)
+	at java.util.concurrent.ForkJoinTask.invoke(ForkJoinTask.java:734)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateParallel(ForEachOps.java:160)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateParallel(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:233)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:583)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:140)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaCompletionProposalComputer.lambda$0(SpringBootJavaCompletionProposalComputer.java:51)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1582)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:215)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:99)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY org.eclipse.lsp4e 4 0 2018-10-21 17:48:17.911
+!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+!STACK 0
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:357)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1895)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.lambda$2(LSContentAssistProcessor.java:143)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1382)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.ForEachOps$ForEachTask.compute(ForEachOps.java:291)
+	at java.util.concurrent.CountedCompleter.exec(CountedCompleter.java:731)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinTask.doInvoke(ForkJoinTask.java:401)
+	at java.util.concurrent.ForkJoinTask.invoke(ForkJoinTask.java:734)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateParallel(ForEachOps.java:160)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateParallel(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:233)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:583)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:140)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaCompletionProposalComputer.lambda$0(SpringBootJavaCompletionProposalComputer.java:51)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1582)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:215)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:99)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY org.eclipse.lsp4e 4 0 2018-10-21 17:48:20.085
+!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+!STACK 0
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:357)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1895)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.lambda$2(LSContentAssistProcessor.java:143)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1382)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.ForEachOps$ForEachTask.compute(ForEachOps.java:291)
+	at java.util.concurrent.CountedCompleter.exec(CountedCompleter.java:731)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinTask.doInvoke(ForkJoinTask.java:401)
+	at java.util.concurrent.ForkJoinTask.invoke(ForkJoinTask.java:734)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateParallel(ForEachOps.java:160)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateParallel(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:233)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:583)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:140)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaCompletionProposalComputer.lambda$0(SpringBootJavaCompletionProposalComputer.java:51)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1582)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:215)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:99)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY org.eclipse.lsp4e 4 0 2018-10-21 17:48:20.784
+!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+!STACK 0
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:357)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1895)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.lambda$2(LSContentAssistProcessor.java:143)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1382)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.ForEachOps$ForEachTask.compute(ForEachOps.java:291)
+	at java.util.concurrent.CountedCompleter.exec(CountedCompleter.java:731)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinTask.doInvoke(ForkJoinTask.java:401)
+	at java.util.concurrent.ForkJoinTask.invoke(ForkJoinTask.java:734)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateParallel(ForEachOps.java:160)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateParallel(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:233)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:583)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:140)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaCompletionProposalComputer.lambda$0(SpringBootJavaCompletionProposalComputer.java:51)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1582)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:215)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:99)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY org.eclipse.lsp4e 4 0 2018-10-21 17:48:26.547
+!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+!STACK 0
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:357)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1895)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.lambda$2(LSContentAssistProcessor.java:143)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1382)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.ForEachOps$ForEachTask.compute(ForEachOps.java:291)
+	at java.util.concurrent.CountedCompleter.exec(CountedCompleter.java:731)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinTask.doInvoke(ForkJoinTask.java:401)
+	at java.util.concurrent.ForkJoinTask.invoke(ForkJoinTask.java:734)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateParallel(ForEachOps.java:160)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateParallel(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:233)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:583)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:140)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaCompletionProposalComputer.lambda$0(SpringBootJavaCompletionProposalComputer.java:51)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1582)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:215)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:99)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY org.eclipse.lsp4e 4 0 2018-10-21 17:48:29.445
+!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+!STACK 0
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:357)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1895)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.lambda$2(LSContentAssistProcessor.java:143)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1382)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.ForEachOps$ForEachTask.compute(ForEachOps.java:291)
+	at java.util.concurrent.CountedCompleter.exec(CountedCompleter.java:731)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinTask.doInvoke(ForkJoinTask.java:401)
+	at java.util.concurrent.ForkJoinTask.invoke(ForkJoinTask.java:734)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateParallel(ForEachOps.java:160)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateParallel(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:233)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:583)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:140)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaCompletionProposalComputer.lambda$0(SpringBootJavaCompletionProposalComputer.java:51)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1582)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:215)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:99)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY org.eclipse.ui 4 0 2018-10-21 17:48:40.325
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.e4.core.di.InjectionException: java.lang.NullPointerException
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:68)
+	at org.eclipse.e4.ui.internal.di.UIEventObjectSupplier$UIEventHandler$1.run(UIEventObjectSupplier.java:67)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:236)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:147)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4594)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:215)
+	at org.eclipse.e4.ui.internal.di.UIEventObjectSupplier$UIEventHandler.handleEvent(UIEventObjectSupplier.java:64)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:204)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:199)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:138)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:81)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:42)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.e4.ui.model.application.ui.impl.UIElementImpl.setVisible(UIElementImpl.java:349)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributionRecord.updateVisibility(ContributionRecord.java:113)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRendererFilter.updateElementVisibility(MenuManagerRendererFilter.java:194)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRendererFilter.updateElementVisibility(MenuManagerRendererFilter.java:205)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerShowProcessor.showMenu(MenuManagerShowProcessor.java:258)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerShowProcessor.menuAboutToHide(MenuManagerShowProcessor.java:115)
+	at org.eclipse.jface.internal.MenuManagerEventHelper.showEventPostHelper(MenuManagerEventHelper.java:95)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:474)
+	at org.eclipse.jface.action.MenuManager.access$1(MenuManager.java:468)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:500)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:259)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4145)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1060)
+	at org.eclipse.swt.widgets.Control.WM_INITMENUPOPUP(Control.java:5148)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4797)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:348)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1502)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4784)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:253)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:3999)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3555)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:628)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:199)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:391)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:246)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1474)
+Caused by: java.lang.NullPointerException
+	at org.eclipse.tm4e.ui.internal.menus.ThemeContribution.getContributionItems(ThemeContribution.java:58)
+	at org.eclipse.ui.actions.CompoundContributionItem.getContributionItemsToFill(CompoundContributionItem.java:83)
+	at org.eclipse.ui.actions.CompoundContributionItem.fill(CompoundContributionItem.java:57)
+	at org.eclipse.ui.internal.menus.DynamicMenuContributionItem.fill(DynamicMenuContributionItem.java:150)
+	at org.eclipse.jface.action.MenuManager.doItemFill(MenuManager.java:731)
+	at org.eclipse.jface.action.MenuManager.update(MenuManager.java:813)
+	at org.eclipse.jface.action.MenuManager.update(MenuManager.java:672)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRenderer.scheduleManagerUpdate(MenuManagerRenderer.java:1222)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRenderer.subscribeUIElementTopicAllRenderedVisibility(MenuManagerRenderer.java:203)
+	at sun.reflect.GeneratedMethodAccessor14.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	... 65 more
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 17:49:33.791
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			br.com.infoscan.vendas.model[*]: {CHILDREN}
+				[Working copy] Cliente.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/vendas-api/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 17:49:34.099
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CONTENT}
+		ResourceDelta(/vendas-api/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 17:51:30.991
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			br.com.infoscan.vendas.repository[+]: {}
+		ResourceDelta(/vendas-api/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 17:51:31.402
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			br.com.infoscan.vendas.repository[*]: {CHILDREN}
+				[Working copy] Clientes.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 17:51:31.441
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CONTENT}
+		ResourceDelta(/vendas-api/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 17:53:50.833
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			br.com.infoscan.vendas.resource[+]: {}
+		ResourceDelta(/vendas-api/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 17:53:51.129
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CONTENT}
+		ResourceDelta(/vendas-api/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 17:53:51.205
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			br.com.infoscan.vendas.resource[*]: {CHILDREN}
+				[Working copy] ClientesResouce.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 17:59:43.020
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			br.com.infoscan.vendas.resource[*]: {CHILDREN}
+				[Working copy] ClientesResouce.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/vendas-api/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 17:59:43.229
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CONTENT}
+		ResourceDelta(/vendas-api/src)[*]
+		ResourceDelta(/vendas-api/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 18:02:26.907
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			br.com.infoscan.vendas.resource[*]: {CHILDREN}
+				[Working copy] ClientesResouce.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/vendas-api/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 18:02:27.215
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CONTENT}
+		ResourceDelta(/vendas-api/src)[*]
+		ResourceDelta(/vendas-api/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 18:02:31.720
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			br.com.infoscan.vendas.repository[*]: {CHILDREN}
+				[Working copy] Clientes.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/vendas-api/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 18:02:31.973
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CONTENT}
+		ResourceDelta(/vendas-api/src)[*]
+		ResourceDelta(/vendas-api/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 18:04:18.299
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/vendas-api/src/main/resources/import.sql)[+]
+		ResourceDelta(/vendas-api/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 18:04:18.482
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CONTENT}
+		ResourceDelta(/vendas-api/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 18:11:06.344
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CONTENT}
+		ResourceDelta(/vendas-api/pom.xml)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 18:11:09.804
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CHILDREN | RESOLVED CLASSPATH CHANGED}
+		C:\Users\hscan\.m2\repository\com\h2database\h2\1.4.197\h2-1.4.197.jar[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 18:11:09.905
+!MESSAGE Preparing classpath changed notification vendas-api
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 18:11:10.006
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 18:11:10.081
+!MESSAGE classpath=99 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 18:11:10.106
+!MESSAGE executing callback sts4.classpath.KvrSBxnY vendas-api false 99
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 18:11:10.248
+!MESSAGE executing callback sts4.classpath.KvrSBxnY SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 18:11:10.447
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CONTENT}
+		ResourceDelta(/vendas-api/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 18:11:12.348
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CONTENT}
+		ResourceDelta(/vendas-api/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 18:11:12.838
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CONTENT}
+		ResourceDelta(/vendas-api/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 18:11:13.079
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/vendas-api/src/main/resources/import.sql)[*]
+		ResourceDelta(/vendas-api/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 18:11:13.992
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CONTENT}
+		ResourceDelta(/vendas-api/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 18:15:46.450
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/vendas-api/src/main/resources/import.sql)[*]
+		ResourceDelta(/vendas-api/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 18:15:46.620
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CONTENT}
+		ResourceDelta(/vendas-api/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 18:20:13.899
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			br.com.infoscan.vendas.model[*]: {CHILDREN}
+				Produto.java[+]: {}
+		ResourceDelta(/vendas-api/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 18:20:14.143
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			br.com.infoscan.vendas.model[*]: {CHILDREN}
+				[Working copy] Produto.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 18:20:14.180
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CONTENT}
+		ResourceDelta(/vendas-api/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 18:24:21.995
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			br.com.infoscan.vendas.repository[*]: {CHILDREN}
+				Produtos.java[+]: {}
+		ResourceDelta(/vendas-api/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 18:24:22.338
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CONTENT}
+		ResourceDelta(/vendas-api/src)[*]
+		ResourceDelta(/vendas-api/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 18:24:22.377
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			br.com.infoscan.vendas.repository[*]: {CHILDREN}
+				[Working copy] Produtos.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 18:24:37.103
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			br.com.infoscan.vendas.repository[*]: {CHILDREN}
+				[Working copy] Produtos.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/vendas-api/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 18:24:37.317
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CONTENT}
+		ResourceDelta(/vendas-api/src)[*]
+		ResourceDelta(/vendas-api/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 18:25:08.042
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			br.com.infoscan.vendas.model[*]: {CHILDREN}
+				[Working copy] Produto.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/vendas-api/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 18:25:21.533
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			br.com.infoscan.vendas.resource[*]: {CHILDREN}
+				ProdutosResouce.java[+]: {}
+		ResourceDelta(/vendas-api/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 18:25:22.252
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CONTENT}
+		ResourceDelta(/vendas-api/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 18:25:24.650
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			br.com.infoscan.vendas.resource[*]: {CHILDREN}
+				[Working copy] ProdutosResouce.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 18:26:11.383
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			br.com.infoscan.vendas.resource[*]: {CHILDREN}
+				[Working copy] ProdutosResouce.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/vendas-api/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 18:26:11.585
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CONTENT}
+		ResourceDelta(/vendas-api/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 18:33:15.602
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/vendas-api/src/main/resources/import.sql)[*]
+		ResourceDelta(/vendas-api/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 18:33:15.763
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CONTENT}
+		ResourceDelta(/vendas-api/target)[*]]
+
+!ENTRY org.eclipse.equinox.p2.engine 4 4 2018-10-21 18:41:22.503
+!MESSAGE An error occurred while collecting items to be installed
+!SUBENTRY 1 org.eclipse.equinox.p2.engine 4 0 2018-10-21 18:41:22.503
+!MESSAGE session context was:(profile=DefaultProfile, phase=org.eclipse.equinox.internal.p2.engine.phases.Collect, operand=, action=).
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-10-21 18:41:22.503
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.egit,5.2.0.201810212107
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-10-21 18:41:22.503
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.egit.core,5.2.0.201810212107
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-10-21 18:41:22.503
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.egit.doc,5.2.0.201810212107
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-10-21 18:41:22.503
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.egit.gitflow,5.2.0.201810212107
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-10-21 18:41:22.503
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.egit.gitflow.ui,5.2.0.201810212107
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-10-21 18:41:22.503
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.egit.ui,5.2.0.201810212107
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-10-21 18:41:22.503
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.jgit,5.2.0.201810201338
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-10-21 18:41:22.503
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.jgit.archive,5.2.0.201810201338
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-10-21 18:41:22.503
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.jgit.http.apache,5.2.0.201810201338
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-10-21 18:41:22.503
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.jgit.lfs,5.2.0.201810201338
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-10-21 18:41:22.503
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.jgit.lfs.server,5.2.0.201810201338
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-10-21 18:41:22.503
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.egit,5.2.0.201810212107
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-10-21 18:41:22.503
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.egit.gitflow.feature,5.2.0.201810212107
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-10-21 18:41:22.503
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.jgit,5.2.0.201810201404
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-10-21 18:41:22.503
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.jgit.lfs,5.2.0.201810201404
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 18:42:01.566
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			br.com.infoscan.vendas.model[*]: {CHILDREN}
+				Cliente.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 18:42:01.603
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			br.com.infoscan.vendas.repository[*]: {CHILDREN}
+				Clientes.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 18:42:01.688
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			br.com.infoscan.vendas.resource[*]: {CHILDREN}
+				ClientesResouce.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 18:42:01.914
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			br.com.infoscan.vendas.model[*]: {CHILDREN}
+				Produto.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 18:42:01.951
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			br.com.infoscan.vendas.resource[*]: {CHILDREN}
+				ProdutosResouce.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 18:42:02.042
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			br.com.infoscan.vendas.repository[*]: {CHILDREN}
+				Produtos.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 18:42:02.055
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.KvrSBxnY
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 18:42:02.064
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.KvrSBxnY
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 18:42:02.070
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 18:42:02.077
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.KvrSBxnY => OK
+!SESSION 2018-10-21 18:42:20.812 -----------------------------------------------
+eclipse.buildId=4.0.0.201809220817-RELEASE
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2018-10-21 18:44:12.843
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-10-21 18:44:12.843
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@64381526,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@46290193,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 18:44:28.198
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-10-21 18:44:32.846
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\hscan'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 18:44:35.355
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.WEiPscLQ
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 18:44:35.370
+!MESSAGE subscribing to classpath changes: sts4.classpath.WEiPscLQ
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 18:44:35.386
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 18:44:35.401
+!MESSAGE subsribers = [sts4.classpath.WEiPscLQ]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 18:44:35.401
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 18:44:35.464
+!MESSAGE project vendas-api ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 18:44:35.480
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 18:44:35.480
+!MESSAGE Preparing classpath changed notification vendas-api
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 18:44:35.495
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.WEiPscLQ => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 18:44:35.511
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 18:44:35.563
+!MESSAGE classpath=99 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 18:44:35.579
+!MESSAGE executing callback sts4.classpath.WEiPscLQ vendas-api false 99
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 18:44:36.881
+!MESSAGE executing callback sts4.classpath.WEiPscLQ SUCCESS [done]
+
+!ENTRY org.eclipse.equinox.p2.engine 4 4 2018-10-21 19:05:44.181
+!MESSAGE An error occurred while collecting items to be installed
+!SUBENTRY 1 org.eclipse.equinox.p2.engine 4 0 2018-10-21 19:05:44.181
+!MESSAGE session context was:(profile=DefaultProfile, phase=org.eclipse.equinox.internal.p2.engine.phases.Collect, operand=, action=).
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-10-21 19:05:44.181
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.egit,5.2.0.201810212107
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-10-21 19:05:44.182
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.egit.core,5.2.0.201810212107
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-10-21 19:05:44.182
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.egit.doc,5.2.0.201810212107
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-10-21 19:05:44.182
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.egit.gitflow,5.2.0.201810212107
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-10-21 19:05:44.182
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.egit.gitflow.ui,5.2.0.201810212107
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-10-21 19:05:44.182
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.egit.ui,5.2.0.201810212107
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-10-21 19:05:44.182
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.jgit,5.2.0.201810201338
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-10-21 19:05:44.182
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.jgit.archive,5.2.0.201810201338
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-10-21 19:05:44.182
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.jgit.http.apache,5.2.0.201810201338
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-10-21 19:05:44.182
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.jgit.lfs,5.2.0.201810201338
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-10-21 19:05:44.182
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.jgit.lfs.server,5.2.0.201810201338
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-10-21 19:05:44.182
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.egit,5.2.0.201810212107
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-10-21 19:05:44.182
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.egit.gitflow.feature,5.2.0.201810212107
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-10-21 19:05:44.182
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.jgit,5.2.0.201810201404
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-10-21 19:05:44.182
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.jgit.lfs,5.2.0.201810201404
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 19:07:14.109
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			br.com.infoscan.vendas.repository[*]: {CHILDREN}
+				Produtos.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 19:07:14.129
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.WEiPscLQ
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 19:07:14.137
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.WEiPscLQ
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 19:07:14.145
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 19:07:14.152
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.WEiPscLQ => OK
+
+!ENTRY org.eclipse.ui 2 2 2018-10-21 19:07:15.091
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.ui.projectPropertyPage (bundle: org.springframework.ide.eclipse.boot.validation, propertyPage: org.springframework.ide.eclipse.boot.validation.preferences.BootValidationProjectPropertyPage)
+!SESSION 2018-10-21 19:07:17.252 -----------------------------------------------
+eclipse.buildId=4.0.0.201809220817-RELEASE
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -data file:/D:/work/workspace-aw/ -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2018-10-21 19:07:29.929
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-10-21 19:07:29.929
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@45e35a0d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@21d15932,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 19:07:40.893
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-10-21 19:07:44.854
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\hscan'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 19:07:49.255
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.zCegYXpw
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 19:07:49.262
+!MESSAGE subscribing to classpath changes: sts4.classpath.zCegYXpw
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 19:07:49.271
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 19:07:49.279
+!MESSAGE subsribers = [sts4.classpath.zCegYXpw]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 19:07:49.287
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 19:07:49.302
+!MESSAGE project vendas-api ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 19:07:49.312
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 19:07:49.320
+!MESSAGE Preparing classpath changed notification vendas-api
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 19:07:49.327
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.zCegYXpw => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 19:07:49.335
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 19:07:49.386
+!MESSAGE classpath=99 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 19:07:49.404
+!MESSAGE executing callback sts4.classpath.zCegYXpw vendas-api false 99
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 19:07:50.153
+!MESSAGE executing callback sts4.classpath.zCegYXpw SUCCESS [done]
+
+!ENTRY org.eclipse.ui 2 2 2018-10-21 19:08:02.306
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.ui.projectPropertyPage (bundle: org.springframework.ide.eclipse.boot.validation, propertyPage: org.springframework.ide.eclipse.boot.validation.preferences.BootValidationProjectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 19:12:37.247
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			br.com.infoscan.vendas.model[*]: {CHILDREN}
+				Item.java[+]: {}
+		ResourceDelta(/vendas-api/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 19:12:37.655
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			br.com.infoscan.vendas.model[*]: {CHILDREN}
+				[Working copy] Item.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 19:12:38.914
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CONTENT}
+		ResourceDelta(/vendas-api/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 19:12:48.059
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CONTENT}
+		ResourceDelta(/vendas-api/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 19:16:11.247
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			br.com.infoscan.vendas.model[*]: {CHILDREN}
+				Venda.java[+]: {}
+		ResourceDelta(/vendas-api/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 19:16:11.493
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			br.com.infoscan.vendas.model[*]: {CHILDREN}
+				[Working copy] Venda.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 19:16:11.651
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CONTENT}
+		ResourceDelta(/vendas-api/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 19:16:41.623
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			br.com.infoscan.vendas.model[*]: {CHILDREN}
+				[Working copy] Item.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/vendas-api/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 19:16:41.859
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CONTENT}
+		ResourceDelta(/vendas-api/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 19:18:46.448
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			br.com.infoscan.vendas.model[*]: {CHILDREN}
+				[Working copy] Venda.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/vendas-api/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 19:18:46.720
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CONTENT}
+		ResourceDelta(/vendas-api/src)[*]
+		ResourceDelta(/vendas-api/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 19:23:38.024
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			br.com.infoscan.vendas.model[*]: {CHILDREN}
+				[Working copy] Venda.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/vendas-api/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 19:23:38.343
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CONTENT}
+		ResourceDelta(/vendas-api/src)[*]
+		ResourceDelta(/vendas-api/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 19:24:19.686
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			br.com.infoscan.vendas.model[*]: {CHILDREN}
+				[Working copy] Venda.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/vendas-api/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 19:24:19.953
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CONTENT}
+		ResourceDelta(/vendas-api/src)[*]
+		ResourceDelta(/vendas-api/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 19:24:49.754
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			br.com.infoscan.vendas.model[*]: {CHILDREN}
+				[Working copy] Venda.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/vendas-api/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 19:24:50.007
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CONTENT}
+		ResourceDelta(/vendas-api/src)[*]
+		ResourceDelta(/vendas-api/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 19:25:22.808
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			br.com.infoscan.vendas.model[*]: {CHILDREN}
+				[Working copy] Item.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/vendas-api/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 19:25:23.064
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CONTENT}
+		ResourceDelta(/vendas-api/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 19:25:44.389
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			br.com.infoscan.vendas.repository[*]: {CHILDREN}
+				Vendas.java[+]: {}
+		ResourceDelta(/vendas-api/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 19:25:44.672
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			br.com.infoscan.vendas.repository[*]: {CHILDREN}
+				[Working copy] Vendas.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 19:25:44.714
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CONTENT}
+		ResourceDelta(/vendas-api/src)[*]
+		ResourceDelta(/vendas-api/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 19:25:56.907
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			br.com.infoscan.vendas.repository[*]: {CHILDREN}
+				[Working copy] Vendas.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/vendas-api/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 19:25:57.107
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CONTENT}
+		ResourceDelta(/vendas-api/src)[*]
+		ResourceDelta(/vendas-api/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 19:27:03.010
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			br.com.infoscan.vendas.resource[*]: {CHILDREN}
+				VendasResouce.java[+]: {}
+		ResourceDelta(/vendas-api/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 19:27:03.362
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CONTENT}
+		ResourceDelta(/vendas-api/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 19:27:05.178
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			br.com.infoscan.vendas.resource[*]: {CHILDREN}
+				[Working copy] VendasResouce.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 19:27:45.840
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			br.com.infoscan.vendas.resource[*]: {CHILDREN}
+				[Working copy] VendasResouce.java[*]: {CHILDREN | FINE GRAINED | PRIMARY RESOURCE}
+					VendasResouce[*]: {CHILDREN | FINE GRAINED}
+						vendas[+]: {}
+						vedas[-]: {}
+		ResourceDelta(/vendas-api/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 19:27:46.590
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CONTENT}
+		ResourceDelta(/vendas-api/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 19:29:11.485
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			br.com.infoscan.vendas.service[+]: {}
+		ResourceDelta(/vendas-api/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 19:29:11.765
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			br.com.infoscan.vendas.service[*]: {CHILDREN}
+				[Working copy] VendaService.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 19:29:11.819
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CONTENT}
+		ResourceDelta(/vendas-api/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 19:29:42.737
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			br.com.infoscan.vendas.service[*]: {CHILDREN}
+				[Working copy] VendaService.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/vendas-api/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 19:29:42.943
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CONTENT}
+		ResourceDelta(/vendas-api/src)[*]
+		ResourceDelta(/vendas-api/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 19:34:26.820
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			br.com.infoscan.vendas.service[*]: {CHILDREN}
+				[Working copy] VendaService.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/vendas-api/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 19:34:27.102
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CONTENT}
+		ResourceDelta(/vendas-api/src)[*]
+		ResourceDelta(/vendas-api/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 19:35:49.989
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			br.com.infoscan.vendas.service[*]: {CHILDREN}
+				[Working copy] VendaService.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/vendas-api/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 19:35:50.211
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CONTENT}
+		ResourceDelta(/vendas-api/src)[*]
+		ResourceDelta(/vendas-api/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 19:41:47.845
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			br.com.infoscan.vendas.service[*]: {CHILDREN}
+				[Working copy] VendaService.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/vendas-api/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 19:41:48.032
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CONTENT}
+		ResourceDelta(/vendas-api/src)[*]
+		ResourceDelta(/vendas-api/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 19:44:23.583
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			br.com.infoscan.vendas.resource[*]: {CHILDREN}
+				[Working copy] VendasResouce.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/vendas-api/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 19:44:23.786
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CONTENT}
+		ResourceDelta(/vendas-api/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 19:44:41.040
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			br.com.infoscan.vendas.resource[*]: {CHILDREN}
+				[Working copy] VendasResouce.java[*]: {CHILDREN | FINE GRAINED | PRIMARY RESOURCE}
+					VendasResouce[*]: {CHILDREN | FINE GRAINED}
+						adicionar(Venda)[*]: {ANNOTATIONS}
+							@PostMapping[*]: {CONTENT}
+		ResourceDelta(/vendas-api/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 19:44:41.715
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CONTENT}
+		ResourceDelta(/vendas-api/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 19:47:13.946
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/vendas-api/src/main/resources/import.sql)[*]
+		ResourceDelta(/vendas-api/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 19:47:14.100
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CONTENT}
+		ResourceDelta(/vendas-api/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 19:49:08.999
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			br.com.infoscan.vendas.model[*]: {CHILDREN}
+				[Working copy] Item.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/vendas-api/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 19:49:09.275
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CONTENT}
+		ResourceDelta(/vendas-api/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 19:49:09.318
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CONTENT}
+		ResourceDelta(/vendas-api/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 19:50:53.388
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/vendas-api/src/main/resources/import.sql)[*]
+		ResourceDelta(/vendas-api/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 19:50:53.545
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CONTENT}
+		ResourceDelta(/vendas-api/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 19:52:39.111
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/vendas-api/src/main/resources/import.sql)[*]
+		ResourceDelta(/vendas-api/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 19:52:39.264
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CONTENT}
+		ResourceDelta(/vendas-api/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 19:56:29.993
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/vendas-api/src/main/resources/import.sql)[*]
+		ResourceDelta(/vendas-api/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 19:56:30.135
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CONTENT}
+		ResourceDelta(/vendas-api/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 20:03:13.394
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/vendas-api/src/main/resources/import.sql)[*]
+		ResourceDelta(/vendas-api/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 20:03:14.064
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CONTENT}
+		ResourceDelta(/vendas-api/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 21:15:43.497
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			br.com.infoscan.vendas.model[*]: {CHILDREN}
+				[Working copy] Item.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/vendas-api/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 21:15:43.909
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CONTENT}
+		ResourceDelta(/vendas-api/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 21:20:43.420
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			br.com.infoscan.vendas.model[*]: {CHILDREN}
+				[Working copy] Venda.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/vendas-api/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 21:20:43.903
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CONTENT}
+		ResourceDelta(/vendas-api/src)[*]
+		ResourceDelta(/vendas-api/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 21:22:12.828
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			br.com.infoscan.vendas.service[*]: {CHILDREN}
+				[Working copy] VendaService.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/vendas-api/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 21:22:13.263
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CONTENT}
+		ResourceDelta(/vendas-api/src)[*]
+		ResourceDelta(/vendas-api/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 21:23:35.565
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			br.com.infoscan.vendas.repository[*]: {CHILDREN}
+				Produtos.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 21:23:35.980
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			br.com.infoscan.vendas.model[*]: {CHILDREN}
+				Item.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 21:23:36.182
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			br.com.infoscan.vendas.model[*]: {CHILDREN}
+				Venda.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 21:23:36.296
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			br.com.infoscan.vendas.repository[*]: {CHILDREN}
+				Vendas.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 21:23:36.400
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			br.com.infoscan.vendas.resource[*]: {CHILDREN}
+				VendasResouce.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 21:23:36.580
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			br.com.infoscan.vendas.service[*]: {CHILDREN}
+				VendaService.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 21:23:36.602
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.zCegYXpw
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 21:23:36.621
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.zCegYXpw
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 21:23:36.633
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 21:23:36.646
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.zCegYXpw => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 21:24:36.585
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.YiEDcwNL
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 21:24:36.592
+!MESSAGE subscribing to classpath changes: sts4.classpath.YiEDcwNL
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 21:24:36.601
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 21:24:36.607
+!MESSAGE subsribers = [sts4.classpath.YiEDcwNL]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 21:24:36.618
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 21:24:36.625
+!MESSAGE project vendas-api ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 21:24:36.634
+!MESSAGE Preparing classpath changed notification vendas-api
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 21:24:36.640
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 21:24:36.648
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 21:24:36.655
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.YiEDcwNL => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 21:24:36.667
+!MESSAGE classpath=99 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 21:24:36.679
+!MESSAGE executing callback sts4.classpath.YiEDcwNL vendas-api false 99
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 21:24:37.630
+!MESSAGE executing callback sts4.classpath.YiEDcwNL SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 21:24:58.442
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			br.com.infoscan.vendas.resource[*]: {CHILDREN}
+				[Working copy] ClientesResouce.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/vendas-api/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 21:24:58.741
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CONTENT}
+		ResourceDelta(/vendas-api/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 21:25:09.950
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			br.com.infoscan.vendas.repository[*]: {CHILDREN}
+				[Working copy] Produtos.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 21:25:18.438
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			br.com.infoscan.vendas.repository[*]: {CHILDREN}
+				Produtos.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 21:25:25.174
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			br.com.infoscan.vendas.resource[*]: {CHILDREN}
+				[Working copy] ProdutosResouce.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 21:25:30.928
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			br.com.infoscan.vendas.resource[*]: {CHILDREN}
+				[Working copy] ProdutosResouce.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/vendas-api/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 21:25:31.222
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CONTENT}
+		ResourceDelta(/vendas-api/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 21:25:32.801
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			br.com.infoscan.vendas.resource[*]: {CHILDREN}
+				[Working copy] VendasResouce.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 21:25:36.944
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			br.com.infoscan.vendas.resource[*]: {CHILDREN}
+				[Working copy] VendasResouce.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/vendas-api/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-21 21:25:37.332
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	vendas-api[*]: {CONTENT}
+		ResourceDelta(/vendas-api/target)[*]]
